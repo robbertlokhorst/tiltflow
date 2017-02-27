@@ -3,7 +3,7 @@
 When you just want to add that cool tilty flowy effect to your website.
 
 ## Getting started
-`npm install rellax --save` or just download and insert `tiltflow.min.js`
+`npm install tiltflow --save` or just download and insert `tiltflow.min.js`
 
 ```html
 <body>
@@ -11,7 +11,7 @@ When you just want to add that cool tilty flowy effect to your website.
 
 	<script src="tiltflow.min.js"></script>
 	<script>
-		var yourElement = document.querySelector('your-element');
+		var yourElement = document.querySelector('.your-element');
 		var yourCoolElement = new TiltFlow(yourElement);
 	</script>
 </body>
